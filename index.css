@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Spectral', serif;
+}
+
+.container2{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-image: url(./images/blue-abstract-background-blur-260nw-1205808907.webp);
+    background-size: cover;
+   
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 84%;
+    margin-left: 100px;
+    
+    
+}
+
+nav div h2{
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 600px;
+}
+
+nav ul li{
+    display: inline;
+    list-style: none;
+    margin: 10px 20px;
+    font-size: large;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+.title{
+    margin-left: 8%;
+    margin-top: 13%;
+}
+.title h2{
+    font-size: 40px;
+    margin-left: 185px;
+    font-weight: lighter;
+}
+
+.title h1{
+    font-size: 80px;
+    margin-bottom: 20px;
+    color: blue;
+    font-weight: lighter;
+}
+
+.title button{
+    background-color: white;
+    padding: 10px 8px;
+    text-decoration: none;
+    font-weight: bolder;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 30px;
+    font-size: large;
+    color: rgb(244, 32, 145);
+    margin-left: 165px;
+}
+.image{
+    display: grid;
+    margin-left: 800px;
+    margin-top: -250px;
+
+}
+
+.image img{
+    width: 250px;
+    border-radius: 20px;
+    border-color: deeppink;
+}
+
+#section{
+    padding: 25px 0 25px 0;
+    text-align: center;
+    font-size: 3rem;
+    color: black;
+}
+
+.about h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    text-align: center;
+    color: rgb(10, 175, 230);
+
+}
+
+.about p{
+    margin-top: 10px;
+    font-size: medium;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.about2 ul li{
+    margin-top: 10px;
+    margin-left: 45%;
+    font-weight: bold;
+    font-style: inherit;
+
+
+}
+
+.about2 a{
+    background-color: rgb(10, 175, 230);
+    padding: 10px 18px ;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 5px;
+    margin-left: 650px;
+    color: black;
+
+}
+
+.about2 h1{
+    margin-top: 10px;
+    margin-left: 45%;
+    font-weight: bold;
+    font-style: normal;
+
+}
+.about2 h3{
+    font-size: 25px;
+    margin-bottom: 20px;
+    font-weight: lighter;
+    text-align: center;
+}
+
+.about2 p{
+    text-align: center;
+    font-weight: lighter;
+
+}
+.about2 h4{
+    text-align: center;
+    font-weight: bold;
+    color: rgb(10, 175, 230);
+}
+.years{
+    padding: 10px 8px;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    margin: 30px 0px;
+    border-radius: 30px;
+    font-size: smaller;
+    color: black;
+    background-color: rgb(10, 175, 230);
+
+}
+.contact{
+    background-color: rgb(245, 105, 180);
+}
+
+.iconDiv{
+    margin-top: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: black;
+}
+
+.icon{
+    width: 50px;
+    height: 50px;
+    border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: whitesmoke;
+    color: black;
+}
+
+.icon i{
+    font-size: 20px;
+
+}
+
